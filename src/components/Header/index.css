@@ -27,6 +27,7 @@
   display: flex;
   gap: 1rem;
   cursor: pointer;
+  list-style-type: none;
 }
 
 .heading {

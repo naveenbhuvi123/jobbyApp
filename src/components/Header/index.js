@@ -22,14 +22,14 @@ const Header = props => {
         />
       </Link>
 
-      <div className="menu-names">
+      <ul className="menu-names">
         <Link to="/" className="nav-link">
-          <h1 className="heading">Home</h1>
+          <li className="heading">Home</li>
         </Link>
         <Link to="/jobs" className="nav-link">
-          <h1 className="heading">Jobs</h1>
+          <li className="heading">Jobs</li>
         </Link>
-      </div>
+      </ul>
       <button type="button" className="button" onClick={onClickLogout}>
         Logout
       </button>
